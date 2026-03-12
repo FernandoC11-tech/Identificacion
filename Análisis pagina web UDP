@@ -1,0 +1,16 @@
+Informe Técnico: Análisis de pagina web.
+Asignatura: Desarrollo web y móvil.
+Unidad: Unidad 1 – Introducción al desarrollo frontend.
+Estudiante: Fernando carvajal 
+1. Identificación de la aplicación analizada
+ •- Pagina web: Wikipedia
+ •- Descripción: Wikipedia es una pagina informativa, en el que la comundidad pueden proponer informacion sobre algo, poder agregar informacion se requiera una fuente confiable, se caracteriza por tener gran cantidad de informacion sobre cualquier cosa y por la facilidad para ocupar la pagina, debido a esto el publico objetivo suele ser de cualquier edad, la pagina es unicamente informativa, por lo que su unica funcion es proporcionar informacion.
+2. Rol del Frontend dentro de la aplicacion: el diseño del frontend de wikipedia esta principalmente enfocado en la fluidez, no presenta animaciones, imagenes pesadas o videos, su enfoque dirigido a la lectura no presenta elementos que puedan distraer al lector, a su vez su diseño simple tambien otorga una gran accesibilidad para que pueda funcionar en cualquier dispositivo.
+Pros y contras :
+3. Pros:
+•- Enlaces: cada palabra clave tiene un enlace que te envia a la pagina de esa palabra, en la que se destaca por ser de color azul, haciendolo facilmente reconocible e intuitivo,esto ofrece un.
+•- Organizacion: la informacion esta bien establecida y ordenada, presenta grandes cantidades de informacion encabezadas por diversos titulos, aportando facil reconocimiento de informacion especifica.
+4. Contras:
+•- Diseño de la pagina Web: el diseño de la pagina en general es estandar, tiene un fondo blanco el cual puede cambiarse a negro sin decoracion adicional, en el cual solo puedes cambiar el tamaño de la letra y la anchura de la pagina. esto puede causar poco atractivo para los lectores que entren por primera vez a la pagina, a su vez puede generar una fatiga visual debido al contraste entre la pagina blanca y las letras negras. 
+•- Poca cantidad de imagenes: Presenta una cantidad minima de imagenes, esto puede provocar que la lectura se haga tediosa y dificil de leer de manera prolongada, tambien esto significaria perdida de informacion al estar limitado a texto.
+6. reflexion final
