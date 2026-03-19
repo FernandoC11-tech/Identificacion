@@ -12,6 +12,10 @@ Estudiante: Fernando carvajal - Benjamin Jimenez
  •- Tarea: Crear una cuenta nueva para registrarse en el sistema. Esta tarea es fundamental, ya que es la puerta de entrada para la fidelización y participación activa en la plataforma, por lo que debe contar cun una presentación llamativa y agradable para el usuario.
 3.
 
+4.Identificacion de decisiones de UX positivas: 
+•- Acciones predecibles: Presenta pasos evidentes a seguir, cada boton hace lo que se espera y funciona correctamente, no presenta secciones innecesarias por lo que es facil de seguir. 
+•- Flexibilidad: Ingresar correo electronico es opcional, lo que ofrece mayor facilidad para personas que no ocupan esa herramienta, a su vez proporcionar tu correo electronico da mayor seguridad por lo que no lo hace una funcion ineficaz.
+
 
 5. Identificación de problemas de UX
  •- La acción de crear cuenta debería ser exclusivamente para esto; al principio de la página se muestra el buscador, cuando no tiene nada que ver con la acción seleccionada. 
