@@ -10,15 +10,23 @@ Estudiante: Fernando carvajal - Benjamin Jimenez - Diego Ayala -
  •- Contexto de uso habitual: Un usuario que se encuentra navegando desde su computador de escritorio, nota algún error en un artículo o desea participar en la comunidad, y decide registrarse formalmente en la plataforma para tener una identidad pública.
 2. Definición de tarea especifica de usuario
  •- Tarea: Crear una cuenta nueva para registrarse en el sistema. Esta tarea es fundamental, ya que es la puerta de entrada para la fidelización y participación activa en la plataforma, por lo que debe contar cun una presentación llamativa y agradable para el usuario.
+
 3.
 
 4.Identificacion de decisiones de UX positivas: 
 •- Acciones predecibles: Presenta pasos evidentes a seguir, cada boton hace lo que se espera y funciona correctamente, no presenta secciones innecesarias por lo que es facil de seguir. 
 •- Flexibilidad: Ingresar correo electronico es opcional, lo que ofrece mayor facilidad para personas que no ocupan esa herramienta, a su vez proporcionar tu correo electronico da mayor seguridad por lo que no lo hace una funcion ineficaz.
 
-
 5. Identificación de problemas de UX
  •- La acción de crear cuenta debería ser exclusivamente para esto; al principio de la página se muestra el buscador, cuando no tiene nada que ver con la acción seleccionada. 
     Esto para que el usuario tenga menos opciones de equivocarse al crear la cuenta. También aparecen acciones como cambiar tema, donaciones y otras acciones las cuales pueden entorpecer la fluidez al navegar por la página.
  •- Como consecuencia de lo anterior, los espacios para escribir los datos para crear la cuenta son más pequeños y fácilmente confundibles con las demás partes de la página, 
     sobre todo para gente mayor o la cual recién entra al mundo del internet. Además, los colores de la página no ayudan a distinguir cada sección. 
+
+6. Rediseño conceptual del flujo de uso (UX)
+Para solucionar los problemas de distracción y poca claridad visual en el formulario de registro, proponemos un rediseño orientado a la focalización de la tarea. El nuevo flujo conceptual se estructura de la siguiente manera:
+ •- Qué pasos e información se mantienen: Conservaremos todos los campos de entrada de datos actuales (Usuario, Contraseña, Confirmación, Correo y CAPTCHA), así como los textos de ayuda que aparecen debajo de cada campo (ej. "Tu nombre de usuario será público"), ya que aportan información valiosa de seguridad. El botón principal "Crea tu cuenta" también se mantiene al final del flujo.
+ •- Qué pasos o elementos se eliminan o simplifican: Se implementará una vista de "modo inmersivo" o "foco". Esto significa que, al entrar a la página de "Crear una cuenta", se eliminará toda la barra de navegación superior (buscador, enlaces de donaciones, cambio de tema y menús adicionales). El usuario ya no tendrá la opción de buscar artículos desde esta pantalla, eliminando las posibles vías de escape y clics accidentales.
+ •- Qué información se reorganiza: El formulario dejará de estar acorralado en la parte izquierda. Se centrará en la pantalla para darle todo el protagonismo. Además, para solucionar el problema de accesibilidad visual, se aumentará el tamaño (área de clic) de todas las cajas de texto. También se agrupará el formulario dentro de un contenedor (como una tarjeta o bloque) con un ligero contraste de color respecto al fondo general, separando claramente la zona de interacción del resto de la página.
+ •- Qué decisiones se hacen más claras para el usuario: Al aislar el formulario y quitar las funciones de la Wikipedia general (buscador, menús), la decisión del usuario se vuelve binaria y directa: completar el registro o volver atrás. Ya no tiene que decidir qué elemento de la pantalla mirar. Además, al agrandar los campos y mejorar el contraste, la decisión de dónde hacer clic para escribir se vuelve evidente e intuitiva, reduciendo la carga cognitiva para usuarios novatos o mayores.
+
