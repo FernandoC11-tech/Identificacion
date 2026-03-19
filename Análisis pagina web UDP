@@ -14,7 +14,7 @@ Estudiante: Fernando carvajal - Benjamin Jimenez
 
 
 5. Identificación de problemas de UX
-•- La acción de crear cuenta debería ser exclusivamente para esto; al principio de la página se muestra el buscador, cuando no tiene nada que ver con la acción seleccionada. 
-Esto para que el usuario tenga menos opciones de equivocarse al crear la cuenta. También aparecen acciones como cambiar tema, donaciones y otras acciones las cuales pueden entorpecer la fluidez al navegar por la página.
-•- Como consecuencia de lo anterior, los espacios para escribir los datos para crear la cuenta son más pequeños y fácilmente confundibles con las demás partes de la página, 
-sobre todo para gente mayor o la cual recién entra al mundo del internet. Además, los colores de la página no ayudan a distinguir cada sección. 
+ •- La acción de crear cuenta debería ser exclusivamente para esto; al principio de la página se muestra el buscador, cuando no tiene nada que ver con la acción seleccionada. 
+   Esto para que el usuario tenga menos opciones de equivocarse al crear la cuenta. También aparecen acciones como cambiar tema, donaciones y otras acciones las cuales pueden entorpecer la fluidez al navegar por la página.
+ •- Como consecuencia de lo anterior, los espacios para escribir los datos para crear la cuenta son más pequeños y fácilmente confundibles con las demás partes de la página, 
+   sobre todo para gente mayor o la cual recién entra al mundo del internet. Además, los colores de la página no ayudan a distinguir cada sección. 
