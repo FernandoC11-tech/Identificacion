@@ -1,9 +1,13 @@
 Informe Técnico: Análisis de pagina web.
 Asignatura: Desarrollo web y móvil.
 Unidad: Unidad 1 – Introducción al desarrollo frontend.
-Estudiante: Fernando carvajal 
+Estudiante: Fernando carvajal - Benjamin Jimenez
 1. Identificación de la aplicación analizada
- •- Pagina web: Wikipedia
+ •- Pagina web: Wikipedia.
  •- Descripción: Wikipedia es una pagina informativa, en el que la comundidad pueden proponer informacion sobre algo, poder agregar informacion se requiera una fuente confiable, se caracteriza por tener gran cantidad de informacion sobre cualquier cosa y por la facilidad para ocupar la pagina, debido a esto el publico objetivo suele ser de cualquier edad, la pagina es unicamente informativa, por lo que su unica funcion es proporcionar informacion.
-2.
+ •- Tipo de Aplicación: Plataforma informativa colaborativa (en este caso, interactuando con su sistema de registro de usuarios).
+ •- Público objetivo principal: Personas de diversas edades y niveles de habilidad digital que leen Wikipedia para aprender sobre un tema en especifico, y desean dar el paso a convertirse en colaboradores y/o editores.
+ •- Contexto de uso habitual: Un usuario que se encuentra navegando desde su computador de escritorio, nota algún error en un artículo o desea participar en la comunidad, y decide registrarse formalmente en la plataforma para tener una identidad pública.
+2. Definición de tarea especifica de usuario
+ •- Tarea: Crear una cuenta nueva para registrarse en el sistema. Esta tarea es fundamental, ya que es la puerta de entrada para la fidelización y participación activa en la plataforma, por lo que debe contar cun una presentación llamativa y agradable para el usuario.
 3.
