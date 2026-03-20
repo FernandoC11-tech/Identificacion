@@ -2,17 +2,24 @@ Informe Técnico: Análisis de pagina web.
 Asignatura: Desarrollo web y móvil.
 Unidad: Unidad 1 – Introducción al desarrollo frontend.
 Estudiante: Fernando carvajal - Benjamin Jimenez - Diego Ayala -
+
 1. Identificación de la aplicación analizada
  •- Pagina web: Wikipedia.
- •- Descripción: Wikipedia es una pagina informativa, en el que la comundidad pueden proponer informacion sobre algo, poder agregar informacion se requiera una fuente confiable, se caracteriza por tener gran cantidad de informacion sobre cualquier cosa y por la facilidad para ocupar la pagina, debido a esto el publico objetivo suele ser de cualquier edad, la pagina es unicamente informativa, por lo que su unica funcion es proporcionar informacion.
+ •- Descripción: Wikipedia es una pagina informativa, en el que la comundidad pueden proponer informacion sobre algo, poder agregar informacion se requiera una fuente confiable, se caracteriza por tener gran cantidad de informacion sobre cualquier cosa y por la facilidad para ocupar la pagina, debido a esto el publico objetivo suele ser de cualquier edad,la pagina es unicamente informativa, por lo que su unica funcion es proporcionar informacion.
  •- Tipo de Aplicación: Plataforma informativa colaborativa (en este caso, interactuando con su sistema de registro de usuarios).
- •- Público objetivo principal: Personas de diversas edades y niveles de habilidad digital que leen Wikipedia para aprender sobre un tema en especifico, y desean dar el paso a convertirse en colaboradores y/o editores.
- •- Contexto de uso habitual: Un usuario que se encuentra navegando desde su computador de escritorio, nota algún error en un artículo o desea participar en la comunidad, y decide registrarse formalmente en la plataforma para tener una identidad pública.
+ •- Público objetivo principal: Personas de diversas edades y niveles de habilidad digital que leen Wikipedia para aprender sobre un tema en especifico, y desean dar el paso a convertirse encolaboradores y/o editores.
+ •- Contexto de uso habitual: Un usuario que se encuentra navegando desde su computador de escritorio, nota algún error en un artículo o desea participar en la comunidad,
+y decide registrarse formalmente en la plataforma para tener una identidad pública.
+
 2. Definición de tarea especifica de usuario
- •- Tarea: Crear una cuenta nueva para registrarse en el sistema. Esta tarea es fundamental, ya que es la puerta de entrada para la fidelización y participación activa en la plataforma, por lo que debe contar cun una presentación llamativa y agradable para el usuario.
+ •- Tarea: Crear una cuenta nueva para registrarse en el sistema. Esta tarea es fundamental, ya que es la puerta de entrada para la fidelización y participación activa en la plataforma,
+por lo que debe contar cun una presentación llamativa y agradable para el usuario.
 
-3.
-
+3. Paso a paso:
+al ingresar a wikipedia en la esquina superior derecha,entre el boton de "Ingresar" Y "Donaciones" se encuentra "Crear una cuenta", al clickearlo te dirije a la pagina para crear una cuenta, en esta hay un formulario con campos como "Nombre de usuario", "Contraseña", "Confirmar contraseña" y "direccion de correo"
+el usuario debe completar obligatoriamente las 3 primeras y completar un CAPTCHA(en el que debes escribir una palabra) para registrar su cuenta, siendo "Direccion de correo electronico" opcional, al completarlo y clickear en crea tu cuenta te dirije a una encuesta opcional, en el que pregunta "¿Por qué has creado tu cuenta hoy?" y "¿Ya has editado alguna vez en Wikipedia?" en el cual hay multiples respuestas predefinidas.
+en caso de que no hayas ingresado un correo electronico te da la opcion de agregarlo y te da la opcion para elegir tus idiomas principales.
+  
 4.Identificacion de decisiones de UX positivas: 
 •- Acciones predecibles: Presenta pasos evidentes a seguir, cada boton hace lo que se espera y funciona correctamente, no presenta secciones innecesarias por lo que es facil de seguir. 
 •- Flexibilidad: Ingresar correo electronico es opcional, lo que ofrece mayor facilidad para personas que no ocupan esa herramienta, a su vez proporcionar tu correo electronico da mayor seguridad por lo que no lo hace una funcion ineficaz.
@@ -29,4 +36,19 @@ Para solucionar los problemas de distracción y poca claridad visual en el formu
  •- Qué pasos o elementos se eliminan o simplifican: Se implementará una vista de "modo inmersivo" o "foco". Esto significa que, al entrar a la página de "Crear una cuenta", se eliminará toda la barra de navegación superior (buscador, enlaces de donaciones, cambio de tema y menús adicionales). El usuario ya no tendrá la opción de buscar artículos desde esta pantalla, eliminando las posibles vías de escape y clics accidentales.
  •- Qué información se reorganiza: El formulario dejará de estar acorralado en la parte izquierda. Se centrará en la pantalla para darle todo el protagonismo. Además, para solucionar el problema de accesibilidad visual, se aumentará el tamaño (área de clic) de todas las cajas de texto. También se agrupará el formulario dentro de un contenedor (como una tarjeta o bloque) con un ligero contraste de color respecto al fondo general, separando claramente la zona de interacción del resto de la página.
  •- Qué decisiones se hacen más claras para el usuario: Al aislar el formulario y quitar las funciones de la Wikipedia general (buscador, menús), la decisión del usuario se vuelve binaria y directa: completar el registro o volver atrás. Ya no tiene que decidir qué elemento de la pantalla mirar. Además, al agrandar los campos y mejorar el contraste, la decisión de dónde hacer clic para escribir se vuelve evidente e intuitiva, reduciendo la carga cognitiva para usuarios novatos o mayores.
+
+7. Aplicación de principios fundamentales de UX
+ •- El rediseño del formulario de registro de Wikipedia se basa en mejorar la experiencia del usuario aplicando principios de UX. En cuanto a usabilidad, se eliminan distracciones como la barra de navegación para que el usuario se enfoque solo en registrarse. La claridad mejora al centrar el formulario y destacarlo visualmente,
+haciendo más evidente dónde interactuar. La consistencia se mantiene al conservar los mismos campos y textos, evitando confundir a usuarios que ya conocen el sistema. La eficiencia aumenta al simplificar el flujo y reducir decisiones innecesarias, permitiendo completar el proceso más rápido y por último, la accesibilidad se mejora al agrandar los campos y aumentar el contraste, facilitando su uso para todo tipo de usuarios, siguiendo con la estetica de Wikipedia.
+
+8.Reflexion final
+ •- Es sumamente importante el buen uso de UX dentro del desarrollo frontend,no es suficiente con que funcione correctamente,que sea facil de utilizar o que sea agradable de ocupar pueden marcar la diferencia en el momento que un usuario prefiera utilizar tu pagina antes que el de la competencia, aporta tanto utilidad como eficiencia.
+ •- El UX se puede entender tambien como la estructura de la pagina web,crear antes la UI o el codigo puede hacer que tu pagina web sea bonita o funcione correctamente, pero que el usuario no quiera utilizarla, lo que obliga a rehacer partes que no pasaria si hubieras definido el UX desde el inicio. 
+ •- Presenta una nueva forma de entender las paginas web, entrega una manera dirigida unicamente en los usuarios,ya no esta enfocado principalmente en lo estetico o en la tecnologia detras,si no como el usuario percibe tu pagina web.
+
+
+
+
+
+
 
